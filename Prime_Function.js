@@ -25,3 +25,58 @@ var Prime = (num)=> {
         } 
         }
     console.log(Prime(8));
+
+var num = 2;
+
+if(num<1){
+    console.log(num+" is not prime");
+}
+
+if(num>1){
+    for( var i=2; i<num; i++) {
+            if(num % i==0){
+                console.log(num + " is not prime");
+                break;
+            }else{
+                console.log(num + " is prime")
+                break;
+            }
+    }      
+}
+
+if (num <= 1) return false;
+
+if (num === 2) return true;
+
+if (num % 2 === 0) return false;
+
+
+
+number=8;
+				var i;
+                flag=0;
+console.log("Firt "+number/2);
+
+				for(i=2; i <= number/2; i++)
+				{
+                    
+					if(number%i == 0)
+					{
+						flag = 1;
+					}
+                    console.log(number+" "+i+" "+number%i);
+				}
+				if(flag == 0)
+				{
+					console.log("prime number");
+				}
+				else
+				{
+					console.log("not a prime number")
+				}
+                console.log("flag"+flag)
+                console.log(number)
+                console.log(number%i)
+;	
+
+
