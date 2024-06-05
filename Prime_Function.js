@@ -78,3 +78,5 @@ console.log("Firt "+number/2);
                 console.log(number)
                 console.log(number%i)
 ;	
+
+
