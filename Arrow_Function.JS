@@ -19,3 +19,13 @@ console.log(welcome());
 console.log(sub(5,6));
 console.log(squar(4));
 console.log(greetings(" raj"));
+
+//Array Operations
+
+var arry1=[0,2,5,6];
+
+console.log(arry1);
+console.log(arry1.length);
+console.log(arry1.length-1);
+var arr3 = ["Shiju","Anil","Pecok"];
+console.log(arr3)
